@@ -12,7 +12,7 @@ This project aim to exploit a web API (JCDecaux) using Python to retreive data o
   - [Description](#description)
 - [Summary](#summary)
 - [Instructions](#instructions)
-- [1. Usage](#1use-the-application)
+  - [1. Usage](#1use-the-application)
 - [Usefull links](#usefull-links)
 - [Authors](#authors)
 
@@ -29,7 +29,7 @@ https://github.com/clement6494/ELLIPSE.git
 # 1.  compile [main.py](main.py)
 
 
-* 2) enter the number corresponding to the task you want to execute :
+* 1) enter the number corresponding to the task you want to execute :
 
 ```bash
 1. Afficher les parts de vélos mécaniques et électriques pour une ville
@@ -54,6 +54,9 @@ Nombre de stations : 84
 ```  
 
   A message error will appear if the city you chose isn't referenced
+* 2) option 3 take a little bit of time
+    it will previously scan all the cities and retreive their number of bikes, so it takes some time,
+    but no worries it works well.
 
 * 3) Press 0 to exit
 
