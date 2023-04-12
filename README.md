@@ -55,7 +55,7 @@ Nombre de stations : 84
 
   A message error will appear if the city you chose isn't referenced
 
-*3) Press 0 to exit
+* 3) Press 0 to exit
 
 ```bash
 Votre choix : 0
