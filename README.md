@@ -1,5 +1,5 @@
 # ELLIPSE
-# Project - Devops - MARTINEZ - CONCHEZ
+# Project - Devops - CONCHEZ
 
 
 ## Description
@@ -8,15 +8,11 @@ This project aim to exploit a web API (JCDecaux) using Python to retreive data o
 
 # Summary
 
-- [Project-Devops-MARTINEZ-CONCHEZ](#project---devops---martinez---conchez)
+- [Project-Devops-MARTINEZ-CONCHEZ](#project---devops---conchez)
   - [Description](#description)
 - [Summary](#summary)
 - [Instructions](#instructions)
-- [1. Creation of the NodeJS web application](#1-creation-of-the-nodejs-web-application)
-  - [Installation](#installation)
-  - [Usage](#use-the-application)
-  - [Test](#test-the-application)
-
+- [1. Usage](#1use-the-application)
 - [Usefull links](#usefull-links)
 - [Authors](#authors)
 
@@ -30,24 +26,7 @@ https://github.com/clement6494/ELLIPSE.git
 
 ## Instructions
 
-# 1. Creation of the NodeJS web application
-
-## Installation
-
-  This app is written with Nodejs and uses Redis database.
-  
-  * 1) [install NodeJs](https://nodejs.org/en/download/)
-  
-  * 2) [install REDIS](https://redis.io/download)
-
-Go to the [userapi](./userapi/) directory of the application (where `package.json` file located) and run :
-
-  ```bash
-  npm install 
-  ```
-![image](images/1_npminstall.png)
-
-## Use the application
+# 1.  Use the application
  * 1) Start a server
   
   From the [userapi](./user-api/) directory of the repository, use the command below:
