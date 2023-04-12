@@ -1,5 +1,5 @@
 # ELLIPSE
-# Project - Devops - CONCHEZ
+# Project - Ellipse - CONCHEZ
 
 
 ## Description
@@ -8,7 +8,7 @@ This project aim to exploit a web API (JCDecaux) using Python to retreive data o
 
 # Summary
 
-- [Project-Devops-MARTINEZ-CONCHEZ](#project---devops---conchez)
+- [Project-ELLIPSE-CONCHEZ](#project---ellipse---conchez)
   - [Description](#description)
 - [Summary](#summary)
 - [Instructions](#instructions)
