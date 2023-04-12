@@ -26,58 +26,42 @@ https://github.com/clement6494/ELLIPSE.git
 
 ## Instructions
 
-# 1.  Use the application
- * 1) Start a server
-  
-  From the [userapi](./user-api/) directory of the repository, use the command below:
+# 1.  compile [main.py](main.py)
+
+
+* 2) enter the number corresponding to the task you want to execute :
 
 ```bash
-npm run start
+1. Afficher les parts de vélos mécaniques et électriques pour une ville
+2. Afficher les parts de vélos mécaniques et électriques pour toutes les villes
+3. Afficher les n villes possédant le plus de velos et leurs pourcentages
+4. Afficher les parts de vélos mécaniques et électriques pour toutes les villes dans un fichier
+0. Quitter
+Votre choix :
 ```
-![image](images/1_npmrunstart.png)
 
-<http://localhost:3000> should be accessible and our web application will run (make sure to have the Redis server open) :
 
-![image](images/1_localhost3000.png)
-
-* 2) To create a user, send the curl POST request to the application with the user data :
+If you choose option 1, enter the name of the city of your wish:
 
 ```bash
-curl --header "Content-Type: application/json" \
-  --request POST \
-  --data '{"username":"sergkudinov", "firstname":"sergei", "lastname":"kudinov"}' \
-  http://localhost:3000/user
-```
-![image](images/1_curlPOST.png)
-
-It should output:
-
-```bash
-{"status":"success","msg":"OK"}
+Votre choix : 1
+Ville : ljubljana
+Pourcentage de vélos mécaniques et électriques à Ljubljana:
+Total number of bikes in : 654
+Pourcentage de vélos mécaniques : 100.0%
+Pourcentage de vélos électriques : 0.0%
+Nombre de stations : 84
 ```  
 
-After, if you go to <http://localhost:3000/user/sergkudinov>, with "sergkudinov" being the username that you had in your POST data, it will display in the browser the following, with correspondance to the data that you posted :  
+  A message error will appear if the city you chose isn't referenced
+
+*3) Press 0 to exit
 
 ```bash
-{"status":"success","msg":{"firstname":"sergei","lastname":"kudinov"}}
+Votre choix : 0
+Au revoir
+PS E:\ECE\GitHub\ELLIPSE> 
 ```
-![image](images/1_localhost3000usersergkudinov.png)
-
-You can also use POST, GET , and DELETE.
-UPDATE wasn't finished because we didn't undersood well what was the ID in the model given of username,firstname,lastname. So we didn't know what souldn't be change and used as ID.
-
-## Test the application 
-
-Go to the [userapi](./userapi/) directory of the application (where `package.json` file located) and run the command below:
-
-```bash
-npm run test
-``` 
-All 12 tests should be passed :  
-
-![image](images/1_npmruntest.PNG)
-
-
 
 ## Authors
 
